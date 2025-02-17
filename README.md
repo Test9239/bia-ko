@@ -83,7 +83,7 @@
         const response = document.getElementById("response");
 
         yesBtn.addEventListener("click", function() {
-            response.textContent = "Dziękuję, doliczam do rachunku :*";
+            response.textContent = "Dziękiii, doliczam do rachunku :*";
             response.classList.remove("missclick");
         });
 
@@ -91,7 +91,7 @@
             response.textContent = "Na pewno to missclick!";
             response.classList.add("missclick");
             setTimeout(function() {
-                response.textContent = "Możesz naprawić błąd i kliknąć tylko opcję 'Tak'.";
+                response.textContent = "Możesz naprawić błąd i kliknąć opcję'Tak'";
                 response.classList.remove("missclick");
             }, 3000);
         });
